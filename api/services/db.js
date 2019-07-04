@@ -5,8 +5,8 @@ dotenv.config()
 
 
 const client = new Client({
-    user: process.env.user,
-    database: process.env.Database,
+    user: 'tydhhzlzbbeagi',
+    database: 'df1qi1sq8m3mjm',
     password: process.env.Password,
 });
 
