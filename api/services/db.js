@@ -7,7 +7,7 @@ dotenv.config()
 const client = new Client({
     user: process.env.USER,
     database: process.env.DATABASE,
-    password: process.env.PASSWORD,
+//     password: process.env.PASSWORD,
 });
 
 client.connect()
